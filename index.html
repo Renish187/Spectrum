@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home | Spectrum Club</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" data-route="home">
+        <img src="logo.png" alt="Spectrum Logo" class="logo-img" />
+        <span class="logo-text">SPECTRUM</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home"         data-route="home">Home</a></li>
+        <li><a href="#events"       data-route="events">Events & Competitions</a></li>
+        <li><a href="#projects"     data-route="projects">Projects</a></li>
+        <li><a href="#team"         data-route="team">Team</a></li>
+        <li><a href="#gallery"      data-route="gallery">Photo Gallery</a></li>
+        <li><a href="#publications" data-route="publications">Publications</a></li>
+        <li><a href="#logistics"    data-route="logistics">Logistics</a></li>
+        <li><a href="#about"        data-route="about">About Us</a></li>
+      </ul>
+      <a href="#about" class="nav-cta" data-route="about">Join Us</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== SPA ROOT ===== -->
+  <main id="app"></main>
+
+  <!-- ===== PAGE TRANSITION OVERLAY ===== -->
+  <div class="page-overlay" id="pageOverlay"></div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="siteFooter">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+             <img src="logo.png" alt="Spectrum Logo" class="logo-img footer-logo-img" />
+            <span>SPECTRUM</span>
+          </div>
+          <p>Electronics & Robotics Club<br />Building engineers, leaders, and innovators.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram" title="Instagram">📸</a>
+            <a href="#" aria-label="LinkedIn"  title="LinkedIn">💼</a>
+            <a href="#" aria-label="YouTube"   title="YouTube">▶️</a>
+            <a href="#" aria-label="GitHub"    title="GitHub">🐙</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home"         data-route="home">Home</a></li>
+            <li><a href="#events"       data-route="events">Events & Competitions</a></li>
+            <li><a href="#projects"     data-route="projects">Projects</a></li>
+            <li><a href="#team"         data-route="team">Team</a></li>
+            <li><a href="#gallery"      data-route="gallery">Photo Gallery</a></li>
+            <li><a href="#publications" data-route="publications">Publications</a></li>
+            <li><a href="#logistics"    data-route="logistics">Logistics</a></li>
+            <li><a href="#about"        data-route="about">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Competitions</h4>
+          <ul>
+            <li><a href="#events" data-route="events">RoboWars</a></li>
+            <li><a href="#events" data-route="events">Drone Racing League</a></li>
+            <li><a href="#events" data-route="events">Circuit Design Challenge</a></li>
+            <li><a href="#events" data-route="events">Hardware Hackathon</a></li>
+            <li><a href="#events" data-route="events">IoT Innovation Cup</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>📧 spectrum@college.edu</p>
+          <p>📍 Electronics Lab, Room 204, E-Block</p>
+          <p>📱 @spectrum_club</p>
+          <p>💼 Spectrum Electronics & Robotics Club</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Spectrum Electronics & Robotics Club. All rights reserved.</p>
+        <p>Made with ❤️ by Team Spectrum</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
