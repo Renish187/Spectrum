@@ -757,15 +757,48 @@ const views = {
       <!-- ── FACULTY ── -->
       <section class="team-section">
         <div class="container">
-          <div class="section-label" style="display:block;text-align:center;margin:0 auto 14px;">Faculty</div>
-          <h2 class="section-title" style="text-align:center;">Faculty <span class="gradient-text">Mentors</span></h2>
-          <div class="new-team-grid new-team-grid--center">
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar">👨‍🏫</div>
-              <h3>[Faculty Name]</h3>
-              <span class="new-team-role">Faculty Mentor</span>
-              <p>Department of Electronics Engineering</p>
+          <div class="associates-header">
+              <div class="associates-line left"></div>
+              <h3>FACULTY</h3>
+              <div class="associates-line"></div>
             </div>
+          <h2 class="section-title" style="text-align:center;">Faculty <span class="gradient-text">Mentors</span></h2>
+          <div class="faculty-grid">
+
+            <div class="faculty-card reveal">
+              <div class="faculty-avatar">👨‍🏫</div>
+              <div class="faculty-info">
+                <h3>[Faculty Head Name]</h3>
+                <span class="faculty-role">Faculty Head</span>
+                <p>Department of Electronics Engineering</p>
+                <div class="faculty-socials">
+                  <a href="mailto:" title="Email" class="faculty-social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  </a>
+                  <a href="#" title="LinkedIn" class="faculty-social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="faculty-card reveal">
+              <div class="faculty-avatar">👨‍🏫</div>
+              <div class="faculty-info">
+                <h3>[Faculty Mentor Name]</h3>
+                <span class="faculty-role">Faculty Mentor</span>
+                <p>Department of Electronics Engineering</p>
+                <div class="faculty-socials">
+                  <a href="mailto:" title="Email" class="faculty-social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  </a>
+                  <a href="#" title="LinkedIn" class="faculty-social-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </section>
@@ -773,9 +806,16 @@ const views = {
       <!-- ── CORE TEAM ── -->
       <section class="team-section" style="background:var(--bg2);">
         <div class="container">
-          <div class="section-label" style="display:block;text-align:center;margin:0 auto 14px;">Leadership</div>
+         <div class="associates-group" style="margin-top:52px;">
+            <div class="associates-header">
+              <div class="associates-line left"></div>
+              <h3>LEADERSHIP</h3>
+              <div class="associates-line"></div>
+            </div>
           <h2 class="section-title" style="text-align:center;">Core <span class="gradient-text">Team</span></h2>
-          <div class="new-team-grid">
+
+          <!-- President & Vice President -->
+          <div class="new-team-grid" style="margin-top:36px;">
             <div class="new-team-card reveal">
               <div class="new-team-avatar"><img src="team/Senior team/MEET.jpeg" alt="President" class="avatar-photo" /></div>
               <h3>Meet Patoliya</h3>
@@ -786,67 +826,90 @@ const views = {
               <h3>Vaishvi Rathod</h3>
               <span class="new-team-role">Vice President</span>
             </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/SANKALP.jpeg" alt="Tech Head" class="avatar-photo" /></div>
-              <h3>Sankalp Parikh</h3>
-              <span class="new-team-role">Tech Head</span>
+          </div>
+
+          <!-- Heads -->
+          <div class="associates-group" style="margin-top:52px;">
+            <div class="associates-header">
+              <div class="associates-line left"></div>
+              <h3>Heads</h3>
+              <div class="associates-line"></div>
             </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/NISARG.jpeg" alt="Deputy Tech Head" class="avatar-photo" /></div>
-              <h3>Nisarg Patel</h3>
-              <span class="new-team-role">Deputy Tech Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/NISHANK.jpeg" alt="Presentation Head" class="avatar-photo" /></div>
-              <h3>Nishank Mandalaywala</h3>
-              <span class="new-team-role">Presentation Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/DRASHTI.jpeg" alt="Deputy Presentation Head" class="avatar-photo" /></div>
-              <h3>Drashti Patel</h3>
-              <span class="new-team-role">Deputy Presentation Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/RAHIL.jpeg" alt="On-Ground Head" class="avatar-photo" /></div>
-              <h3>Rahil Alad</h3>
-              <span class="new-team-role">On-Ground Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/RUTANSH.jpeg" alt="Deputy On-Ground Head" class="avatar-photo" /></div>
-              <h3>Rutansh Patel</h3>
-              <span class="new-team-role">Deputy On-Ground Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/VEDANSHI.jpeg" alt="Treasurer" class="avatar-photo" /></div>
-              <h3>Vedanshi Palan</h3>
-              <span class="new-team-role">Treasurer</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/HARSH.jpeg" alt="Logistics Head" class="avatar-photo" /></div>
-              <h3>Harsh Parmar</h3>
-              <span class="new-team-role">Logistics Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/RUDRA.jpeg" alt="Deputy Logistics Head" class="avatar-photo" /></div>
-              <h3>Rudra Panchal</h3>
-              <span class="new-team-role">Deputy Logistics Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/PRACHET.png" alt="Graphics Head" class="avatar-photo" /></div>
-              <h3>Prachet Patel</h3>
-              <span class="new-team-role">Graphics Designing Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/MAAHI.png" alt="Deputy Graphics Head" class="avatar-photo" /></div>
-              <h3>Maahi Parekh</h3>
-              <span class="new-team-role">Deputy Graphics Designing Head</span>
-            </div>
-            <div class="new-team-card reveal">
-              <div class="new-team-avatar"><img src="team/Senior team/SHREYAS.jpeg" alt="AV Head" class="avatar-photo" /></div>
-              <h3>Shreyas Shah</h3>
-              <span class="new-team-role">Audio Video Head</span>
+            <div class="new-team-grid">
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/SANKALP.jpeg" alt="Tech Head" class="avatar-photo" /></div>
+                <h3>Sankalp Parikh</h3>
+                <span class="new-team-role">Tech Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/NISHANK.jpeg" alt="Presentation Head" class="avatar-photo" /></div>
+                <h3>Nishank Mandalaywala</h3>
+                <span class="new-team-role">Presentation Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/RAHIL.jpeg" alt="On-Ground Head" class="avatar-photo" /></div>
+                <h3>Rahil Alad</h3>
+                <span class="new-team-role">On-Ground Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/VEDANSHI.jpeg" alt="Treasurer" class="avatar-photo" /></div>
+                <h3>Vedanshi Palan</h3>
+                <span class="new-team-role">Treasurer</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/HARSH.jpeg" alt="Logistics Head" class="avatar-photo" /></div>
+                <h3>Harsh Parmar</h3>
+                <span class="new-team-role">Logistics Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/PRACHET.png" alt="Graphics Head" class="avatar-photo" /></div>
+                <h3>Prachet Patel</h3>
+                <span class="new-team-role">Graphics Designing Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/SHREYAS.jpeg" alt="AV Head" class="avatar-photo" /></div>
+                <h3>Shreyas Shah</h3>
+                <span class="new-team-role">Audio Video Head</span>
+              </div>
             </div>
           </div>
+
+          <!-- Deputy Heads -->
+          <div class="associates-group" style="margin-top:52px;">
+            <div class="associates-header">
+              <div class="associates-line left"></div>
+              <h3>Deputy Heads</h3>
+              <div class="associates-line"></div>
+            </div>
+            <div class="new-team-grid">
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/NISARG.jpeg" alt="Deputy Tech Head" class="avatar-photo" /></div>
+                <h3>Nisarg Patel</h3>
+                <span class="new-team-role">Deputy Tech Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/DRASHTI.jpeg" alt="Deputy Presentation Head" class="avatar-photo" /></div>
+                <h3>Drashti Patel</h3>
+                <span class="new-team-role">Deputy Presentation Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/RUTANSH.jpeg" alt="Deputy On-Ground Head" class="avatar-photo" /></div>
+                <h3>Rutansh Patel</h3>
+                <span class="new-team-role">Deputy On-Ground Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/RUDRA.jpeg" alt="Deputy Logistics Head" class="avatar-photo" /></div>
+                <h3>Rudra Panchal</h3>
+                <span class="new-team-role">Deputy Logistics Head</span>
+              </div>
+              <div class="new-team-card reveal">
+                <div class="new-team-avatar"><img src="team/Senior team/MAAHI.png" alt="Deputy Graphics Head" class="avatar-photo" /></div>
+                <h3>Maahi Parekh</h3>
+                <span class="new-team-role">Deputy Graphics Designing Head</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
